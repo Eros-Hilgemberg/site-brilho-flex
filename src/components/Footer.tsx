@@ -17,8 +17,9 @@ export function Footer() {
               className="h-16 w-auto max-w-full object-contain"
             />
             <p className="mt-5 max-w-md leading-7 text-slate-300">
-              A BrilhoFlex oferece produtos para limpeza residencial, profissional, empresarial e
-              automotiva, com soluções acessíveis para diferentes necessidades.
+              A BrilhoFlex oferece produtos para limpeza residencial,
+              profissional, empresarial e automotiva, com soluções acessíveis
+              para diferentes necessidades.
             </p>
           </div>
           <div>
@@ -36,11 +37,14 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="text-sm font-black uppercase tracking-widest text-lime">Atendimento</h2>
+            <h2 className="text-sm font-black uppercase tracking-widest text-lime">
+              Atendimento
+            </h2>
             <ul className="mt-5 grid gap-4 text-sm text-slate-300">
               <li>
                 <a className="flex gap-3 hover:text-white" href={whatsappUrl()}>
-                  <MessageCircle size={18} /> WhatsApp: {siteConfig.whatsappDisplay}
+                  <MessageCircle size={18} /> WhatsApp:{' '}
+                  {siteConfig.whatsappDisplay}
                 </a>
               </li>
               <li>
@@ -65,7 +69,10 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-5 pt-8 text-xs text-slate-400 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 BrilhoFlex. Todos os direitos reservados. · CNPJ: {siteConfig.cnpj}</p>
+          <p>
+            © 2026 BrilhoFlex. Todos os direitos reservados. · CNPJ:{' '}
+            {siteConfig.cnpj}
+          </p>
           <div className="flex gap-5">
             <a href={siteConfig.policies.privacy}>Política de Privacidade</a>
             <a href={siteConfig.policies.terms}>Termos de Uso</a>

@@ -15,7 +15,9 @@ export default {
         lime: '#1abd1a',
         paper: '#f5f5f5',
       },
-      fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
       boxShadow: { soft: '0 18px 55px rgba(11, 39, 72, 0.12)' },
     },
   },

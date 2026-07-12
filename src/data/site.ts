@@ -24,7 +24,9 @@ export const siteConfig = {
 
 export function whatsappUrl(message: string = siteConfig.whatsappMessage) {
   const digits = siteConfig.whatsappNumber.replace(/\D/g, '')
-  return digits ? `https://wa.me/${digits}?text=${encodeURIComponent(message)}` : '#contato'
+  return digits
+    ? `https://wa.me/${digits}?text=${encodeURIComponent(message)}`
+    : '#contato'
 }
 
 export function phoneUrl() {

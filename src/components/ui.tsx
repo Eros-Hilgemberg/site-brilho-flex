@@ -9,7 +9,11 @@ export function Container({
   className?: string
 }) {
   return (
-    <div className={`mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10 ${className}`}>{children}</div>
+    <div
+      className={`mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10 ${className}`}
+    >
+      {children}
+    </div>
   )
 }
 
@@ -25,10 +29,12 @@ export function Button({
   ...props
 }: ButtonProps) {
   const variants = {
-    primary: 'bg-lime text-white hover:bg-[#00d900] shadow-lg shadow-brand-900/10',
+    primary:
+      'bg-lime text-white hover:bg-[#00d900] shadow-lg shadow-brand-900/10',
     secondary:
       'border border-brand-500/25 bg-white text-brand-700 hover:border-brand-500 hover:bg-brand-50',
-    light: 'border border-white/40 bg-white/10 text-white hover:bg-white hover:text-brand-900',
+    light:
+      'border border-white/40 bg-white/10 text-white hover:bg-white hover:text-brand-900',
   }
   return (
     <a
@@ -79,7 +85,11 @@ export function SectionHeading({
   )
 }
 
-export function PlaceholderVisual({ label = 'Imagem do produto' }: { label?: string }) {
+export function PlaceholderVisual({
+  label = 'Imagem do produto',
+}: {
+  label?: string
+}) {
   return (
     <div className="grid h-full min-h-52 place-items-center bg-[radial-gradient(circle_at_30%_30%,#d6f3ff,transparent_40%),linear-gradient(135deg,#f8fdff,#e8f7fd)] p-6 text-center">
       <div>

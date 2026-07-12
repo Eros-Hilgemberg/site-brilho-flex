@@ -13,7 +13,9 @@ export function FaqList() {
               aria-hidden="true"
             />
           </summary>
-          <p className="max-w-3xl pb-6 pr-10 leading-7 text-slate-600">{answer}</p>
+          <p className="max-w-3xl pb-6 pr-10 leading-7 text-slate-600">
+            {answer}
+          </p>
         </details>
       ))}
     </div>

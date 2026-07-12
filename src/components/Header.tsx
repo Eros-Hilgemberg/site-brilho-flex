@@ -15,7 +15,8 @@ export function Header() {
   }, [])
   useEffect(() => {
     if (!open) return
-    const onKey = (event: KeyboardEvent) => event.key === 'Escape' && setOpen(false)
+    const onKey = (event: KeyboardEvent) =>
+      event.key === 'Escape' && setOpen(false)
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [open])
@@ -38,7 +39,10 @@ export function Header() {
             className="h-12 w-auto object-contain"
           />
         </a>
-        <nav className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal">
+        <nav
+          className="hidden items-center gap-5 lg:flex"
+          aria-label="Navegação principal"
+        >
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -81,7 +85,11 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <Button href={whatsappUrl()} className="mt-5 w-full" onClick={() => setOpen(false)}>
+          <Button
+            href={whatsappUrl()}
+            className="mt-5 w-full"
+            onClick={() => setOpen(false)}
+          >
             <MessageCircle size={18} /> Falar pelo WhatsApp
           </Button>
         </nav>
