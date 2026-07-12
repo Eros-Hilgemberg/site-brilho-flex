@@ -11,9 +11,10 @@ import {
 import carFoam from '../assets/carro_com_espuma.webp'
 import carWax from '../assets/cera_no_carro.webp'
 import industrialFoam from '../assets/limpeza_industria_hero.webp'
+import laundry from '../assets/maquina_roupas.webp'
 import aromatizante from '../assets/products/aromatizante_automotivo.webp'
 import intercap from '../assets/products/intercap.webp'
-import laundry from '../assets/products/lava_roupas.webp'
+import lavaroupas from '../assets/products/lava_roupas.webp'
 
 export const differentials = [
   {
@@ -121,7 +122,7 @@ export const audiences = [
 
 export const products = [
   {
-    image: laundry,
+    image: lavaroupas,
     category: 'Limpeza residencial',
     name: 'Lava roupas BrilhoFLex',
     description:
