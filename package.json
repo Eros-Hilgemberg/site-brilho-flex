@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "typecheck": "tsc -b --pretty false",
     "preview": "vite preview"
   },
@@ -28,6 +30,7 @@
     "eslint-plugin-react-refresh": "latest",
     "globals": "latest",
     "postcss": "latest",
+    "prettier": "latest",
     "tailwindcss": "3.4.17",
     "typescript": "latest",
     "typescript-eslint": "latest"

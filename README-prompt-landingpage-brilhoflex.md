@@ -65,10 +65,10 @@ As principais ações de conversão devem ser:
 Crie uma interface profissional, responsiva, moderna, limpa e comercial, compatível com o segmento de produtos de limpeza.
 
 ### Cores bases do design
+
 - Blue: #009EEEff
 - Lime: #00FF00ff
 - White: #F5F5F5
-
 
 ### Características esperadas
 
@@ -688,17 +688,17 @@ Texto acessível:
 
 Distribua os CTAs estrategicamente:
 
-| Local | CTA principal | Objetivo |
-|---|---|---|
-| Cabeçalho | Solicitar orçamento | Manter contato disponível durante toda a navegação |
-| Hero | Conhecer os produtos / Solicitar orçamento | Atender usuários em diferentes níveis de intenção |
-| Categorias | Ver cada linha | Direcionar para áreas específicas do catálogo |
-| Pós-categorias | Pedir ajuda pelo WhatsApp | Captar visitantes indecisivos |
-| Produtos | Ver detalhes / Ver catálogo completo | Aumentar interesse pelos itens |
-| Sobre | Conhecer nossos produtos | Converter a confiança gerada |
-| Como comprar | Solicitar atendimento pelo WhatsApp | Transformar interesse em contato |
-| FAQ | Tirar uma dúvida pelo WhatsApp | Reduzir objeções |
-| Contato e CTA final | Solicitar orçamento agora | Realizar a chamada final de conversão |
+| Local               | CTA principal                              | Objetivo                                           |
+| ------------------- | ------------------------------------------ | -------------------------------------------------- |
+| Cabeçalho           | Solicitar orçamento                        | Manter contato disponível durante toda a navegação |
+| Hero                | Conhecer os produtos / Solicitar orçamento | Atender usuários em diferentes níveis de intenção  |
+| Categorias          | Ver cada linha                             | Direcionar para áreas específicas do catálogo      |
+| Pós-categorias      | Pedir ajuda pelo WhatsApp                  | Captar visitantes indecisivos                      |
+| Produtos            | Ver detalhes / Ver catálogo completo       | Aumentar interesse pelos itens                     |
+| Sobre               | Conhecer nossos produtos                   | Converter a confiança gerada                       |
+| Como comprar        | Solicitar atendimento pelo WhatsApp        | Transformar interesse em contato                   |
+| FAQ                 | Tirar uma dúvida pelo WhatsApp             | Reduzir objeções                                   |
+| Contato e CTA final | Solicitar orçamento agora                  | Realizar a chamada final de conversão              |
 
 Use variações coerentes de texto, sem alterar o objetivo:
 

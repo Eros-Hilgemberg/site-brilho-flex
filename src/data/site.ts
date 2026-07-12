@@ -1,9 +1,10 @@
 export const siteConfig = {
   name: 'BrilhoFlex',
-  
+
   whatsappDisplay: '(42) 98417-0663',
   whatsappNumber: '42984170663',
-  whatsappMessage: 'Olá! Gostaria de conhecer os produtos da BrilhoFlex e solicitar mais informações.',
+  whatsappMessage:
+    'Olá! Gostaria de conhecer os produtos da BrilhoFlex e solicitar mais informações.',
   phoneDisplay: '(42) 98417-0663',
   phoneNumber: '42984170663',
   emailHandle: 'brilhoflex@hotmail.com',
