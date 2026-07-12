@@ -11,6 +11,7 @@ import {
   Sparkles
 } from 'lucide-react'
 import industrialCleaning from './assets/limpeza_industria_hero.webp'
+import logoBrilhoFlex from './assets/logo_brilho_flex.svg'
 import { FaqList } from './components/Faq'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
@@ -170,7 +171,7 @@ function Categories() {
               <article
                 id={id}
                 key={id}
-                className="scroll-mt-28 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm"
+                className="relative scroll-mt-28 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm"
               >
                 <div className="h-52 overflow-hidden">
                   {image ? (
@@ -190,7 +191,7 @@ function Categories() {
                     <PlaceholderVisual label="Imagem da linha profissional" />
                   )}
                 </div>
-                <div className="p-7">
+                <div className="p-7 h-full">
                   <div className="flex items-center gap-3">
                     <div className="grid h-11 w-11 place-items-center rounded-xl bg-brand-500 text-white">
                       <Icon size={21} />
@@ -205,7 +206,7 @@ function Categories() {
                   <p className="mt-3 text-sm leading-6 text-slate-600">
                     {text}
                   </p>
-                  <ul className="mt-5 grid gap-2 text-sm text-slate-700">
+                  <ul className="mt-5 mb-10 grid gap-2 text-sm text-slate-700">
                     {items.map((item) => (
                       <li className="flex gap-2" key={item}>
                         <Check
@@ -216,14 +217,16 @@ function Categories() {
                       </li>
                     ))}
                   </ul>
-                  <Button
-                    href={siteConfig.categoryLinks[linkKey]}
-                    className="mt-7 w-full"
-                    variant="secondary"
-                    arrow
-                  >
-                    {button}
-                  </Button>
+                  <div className="absolute bottom-0  left-0 w-full px-7 pb-3">
+                    <Button
+                      href={siteConfig.categoryLinks[linkKey]}
+                      className="w-full"
+                      variant="secondary"
+                      arrow
+                    >
+                      {button}
+                    </Button>
+                  </div>
                 </div>
               </article>
             ),
@@ -295,7 +298,7 @@ function Products() {
           title="Produtos em destaque"
           description="Conheça algumas das soluções mais procuradas da BrilhoFlex para diferentes tipos de limpeza."
         />
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <article
               key={product.name}
@@ -306,10 +309,10 @@ function Products() {
                   <img
                     src={product.image}
                     alt={product.pending ? '' : product.name}
-                    width="600"
+                    width="300"
                     height="400"
                     loading="lazy"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-scale-down"
                   />
                 ) : (
                   <PlaceholderVisual />
@@ -317,7 +320,7 @@ function Products() {
               </div>
               <div className="p-6">
                 <p
-                  className={`text-xs font-black uppercase tracking-widest ${product.pending ? 'text-amber-700' : 'text-brand-600'}`}
+                  className={`text-xs font-black uppercase tracking-widest ${product.pending ? 'text-amber-700' : 'text-brand-300'}`}
                 >
                   {product.category}
                 </p>
@@ -332,8 +335,8 @@ function Products() {
                     product.pending
                       ? '#contato'
                       : whatsappUrl(
-                          `Olá! Gostaria de saber mais sobre o ${product.name}.`,
-                        )
+                        `Olá! Gostaria de saber mais sobre o ${product.name}.`,
+                      )
                   }
                   variant="secondary"
                   className="mt-6 w-full"
@@ -394,12 +397,12 @@ function About() {
       <Container className="grid items-center gap-12 lg:grid-cols-2">
         <div className="relative">
           <img
-            src={laundry}
+            src={logoBrilhoFlex}
             alt="Área de lavanderia limpa e organizada"
             width="748"
             height="695"
             loading="lazy"
-            className="aspect-[5/4] w-full rounded-[2rem] object-cover shadow-soft"
+            className="aspect-[5/4] w-full rounded-[2rem] object-contain shadow-soft"
           />
           <div className="absolute -bottom-6 right-5 rounded-2xl bg-lime p-5 text-white shadow-soft sm:right-[-1rem]">
             <Sparkles />

@@ -11,7 +11,9 @@ import {
 import carFoam from '../assets/carro_com_espuma.webp'
 import carWax from '../assets/cera_no_carro.webp'
 import industrialFoam from '../assets/limpeza_industria_hero.webp'
-import laundry from '../assets/maquina_roupas.webp'
+import aromatizante from '../assets/products/aromatizante_automotivo.webp'
+import intercap from '../assets/products/intercap.webp'
+import laundry from '../assets/products/lava_roupas.webp'
 
 export const differentials = [
   {
@@ -119,35 +121,27 @@ export const audiences = [
 
 export const products = [
   {
-    image: undefined,
-    category: 'Limpeza geral',
-    name: 'Limpador Multiuso BrilhoFlex',
-    description:
-      'Praticidade para a limpeza diária de diferentes superfícies, ajudando a remover sujeiras e manter os ambientes bem cuidados.',
-    pending: false,
-  },
-  {
     image: laundry,
-    category: 'Conteúdo pendente',
-    name: 'Produto residencial a definir',
+    category: 'Limpeza residencial',
+    name: 'Lava roupas BrilhoFLex',
     description:
-      'Espaço preparado para receber imagem, nome, categoria e descrição do produto real.',
+      'Lava Roupas é um detergente líquido concentrado que remove sujeiras, manchas e odores, preservando as fibras e as cores dos tecidos.',
     pending: true,
   },
   {
-    image: undefined,
-    category: 'Conteúdo pendente',
-    name: 'Produto profissional a definir',
+    image: intercap,
+    category: 'Limpeza profissional',
+    name: 'Intercap (Desincrustante ácido)',
     description:
-      'Espaço preparado para receber imagem, nome, categoria e descrição do produto real.',
+      'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas.',
     pending: true,
   },
   {
-    image: carWax,
-    category: 'Conteúdo pendente',
-    name: 'Produto automotivo a definir',
+    image: aromatizante,
+    category: 'Limpeza automotiva',
+    name: 'Aromatizante Automotivo',
     description:
-      'Espaço preparado para receber imagem, nome, categoria e descrição do produto real.',
+      'Aromatizante Automotivo perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
     pending: true,
   },
 ]
