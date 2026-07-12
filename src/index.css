@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+  body { @apply m-0 overflow-x-hidden bg-white font-sans text-slate-800 antialiased; }
+  a, button, summary { -webkit-tap-highlight-color: transparent; }
+  ::selection { @apply bg-brand-500 text-white; }
+}
+
+@layer components {
+  .section { @apply scroll-mt-24 py-20 sm:py-24 lg:py-28; }
+  .skip-link { @apply fixed left-4 top-3 z-[100] -translate-y-20 rounded-lg bg-white px-4 py-3 font-bold text-brand-900 shadow-lg transition focus:translate-y-0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
