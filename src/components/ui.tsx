@@ -1,5 +1,5 @@
-import type { AnchorHTMLAttributes, ReactNode } from 'react'
 import { ArrowRight } from 'lucide-react'
+import type { AnchorHTMLAttributes, ReactNode } from 'react'
 
 export function Container({
   children,
@@ -52,12 +52,14 @@ export function SectionHeading({
   title,
   description,
   light = false,
+  white = false,
   align = 'center',
 }: {
   eyebrow?: string
   title: string
   description?: string
   light?: boolean
+  white?: boolean
   align?: 'center' | 'left'
 }) {
   return (
@@ -66,7 +68,7 @@ export function SectionHeading({
     >
       {eyebrow && (
         <p
-          className={`mb-3 text-xs font-black uppercase tracking-[.22em] ${light ? 'text-lime' : 'text-brand-600'}`}
+          className={`mb-3 text-xs font-black uppercase tracking-[.22em] ${light ? 'text-lime' : 'text-brand-600'} ${white ? 'text-white' : ''}`}
         >
           {eyebrow}
         </p>

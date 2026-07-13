@@ -302,7 +302,7 @@ function Products() {
           {products.map((product) => (
             <article
               key={product.name}
-              className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm"
+              className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm relative"
             >
               <div className="h-52">
                 {product.image ? (
@@ -327,23 +327,25 @@ function Products() {
                 <h3 className="mt-3 text-xl font-black text-brand-900">
                   {product.name}
                 </h3>
-                <p className="mt-3 text-sm leading-6 text-slate-600">
+                <p className="mt-3 text-sm mb-10 leading-6 text-slate-600">
                   {product.description}
                 </p>
-                <Button
-                  href={
-                    product.pending
-                      ? '#contato'
-                      : whatsappUrl(
-                        `Olá! Gostaria de saber mais sobre o ${product.name}.`,
-                      )
-                  }
-                  variant="secondary"
-                  className="mt-6 w-full"
-                >
-                  {product.pending ? 'Conteúdo a substituir' : 'Ver detalhes'}{' '}
-                  <ArrowRight size={16} />
-                </Button>
+                <div className="absolute bottom-0  left-0 w-full px-7 pb-3">
+                  <Button
+                    href={
+                      product.pending
+                        ? '#contato'
+                        : whatsappUrl(
+                          `Olá! Gostaria de saber mais sobre o ${product.name}.`,
+                        )
+                    }
+                    variant="secondary"
+                    className="mt-6 w-full"
+                  >
+                    {product.pending ? 'Conteúdo a substituir' : 'Ver detalhes'}{' '}
+                    <ArrowRight size={16} />
+                  </Button>
+                </div>
               </div>
             </article>
           ))}
@@ -627,6 +629,7 @@ function App() {
           <Container className="text-center">
             <SectionHeading
               light
+              white
               eyebrow="Vamos começar?"
               title="Encontre a solução certa para sua limpeza"
               description="Produtos para sua casa, empresa ou centro automotivo, com variedade, atendimento próximo e excelente custo-benefício."
