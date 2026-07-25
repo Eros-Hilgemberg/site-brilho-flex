@@ -207,6 +207,17 @@ export const products: Products[] = [
     category: '#categoria-residencial',
   },
   {
+    id: 37,
+    name: 'Limpador Perfumado Floral',
+    description:
+      'Limpador Perfumado Desinfetante é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
+    descriptionShort:
+      'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+    size: '5 L',
+    imagePath: '/imagem/limpador_perfumado_floral.webp',
+    category: '#categoria-residencial',
+  },
+  {
     id: 18,
     name: 'Limpador Perfumado Eucalipto',
     description:
@@ -226,6 +237,17 @@ export const products: Products[] = [
       'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_algas_marinhas.webp',
+    category: '#categoria-residencial',
+  },
+  {
+    id: 28,
+    name: 'Limpa Alumínio',
+    description:
+      'Limpa Alumínio é um limpador concentrado de alto desempenho, desenvolvido para remover manchas, oxidação, gordura e sujeiras incrustadas em superfícies de alumínio. Sua fórmula promove limpeza profunda, restaurando o brilho natural do metal e proporcionando excelente acabamento com rapidez e eficiência. Possui alto rendimento, fácil aplicação e excelente desempenho, sendo indicado para uso doméstico, comercial e industrial. É ideal para panelas e utensílios de alumínio, esquadrias, portas, rodas e peças automotivas em alumínio, superfícies, equipamentos, tanques e demais objetos de alumínio. Está disponível na embalagem de 5 L.',
+    descriptionShort:
+      'Limpa Alumínio é um limpador concentrado de alto desempenho que remove manchas, oxidação, gordura e sujeiras, restaurando o brilho natural do alumínio.',
+    size: '5 L',
+    imagePath: './assets/products/limpa_alumio.webp',
     category: '#categoria-residencial',
   },
   {
@@ -273,7 +295,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
+    imagePath: './assets/products/desengraxante_solupan_amarelo_1_20.webp',
     specifications: [
       {
         property: 'Aspecto',
@@ -310,7 +332,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: './assets/products/desengraxante_solupan_azul.webp',
+    imagePath: './assets/products/desengraxante_solupan_azul_1_20.webp',
     specifications: [
       {
         property: 'Aspecto',
@@ -346,7 +368,7 @@ export const products: Products[] = [
       'Pneu Pretinho é um revitalizador de pneus de alta performance, desenvolvido para restaurar a aparência original da borracha e proporcionar acabamento uniforme e duradouro. Sua fórmula protege contra o ressecamento e o desgaste causado pela ação do tempo e pelos raios UV, além de criar uma película que auxilia na repulsão de poeira e sujeiras, mantendo os pneus com aspecto renovado por mais tempo. Possui fácil aplicação, excelente rendimento e é indicado para uso profissional e doméstico, sendo ideal para centros automotivos, lava-rápidos e estéticas automotivas. Está disponível nas embalagens de 1 L, 5 L, 20 L e 50 L.',
     descriptionShort:
       'Pneu Pretinho revitaliza a aparência dos pneus, proporciona acabamento uniforme e duradouro, protege a borracha e auxilia na repulsão de poeira e sujeiras.',
-    size: '5 L, 20 L, 25 L e 50 L',
+    size: '1L, 5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/pneu_pretinho_gel.webp',
     category: '#categoria-automotiva',
   },
@@ -421,17 +443,6 @@ export const products: Products[] = [
     category: '#categoria-automotiva',
   },
   {
-    id: 28,
-    name: 'Limpa Alumínio',
-    description:
-      'Limpa Alumínio é um limpador concentrado de alto desempenho, desenvolvido para remover manchas, oxidação, gordura e sujeiras incrustadas em superfícies de alumínio. Sua fórmula promove limpeza profunda, restaurando o brilho natural do metal e proporcionando excelente acabamento com rapidez e eficiência. Possui alto rendimento, fácil aplicação e excelente desempenho, sendo indicado para uso doméstico, comercial e industrial. É ideal para panelas e utensílios de alumínio, esquadrias, portas, rodas e peças automotivas em alumínio, superfícies, equipamentos, tanques e demais objetos de alumínio. Está disponível na embalagem de 5 L.',
-    descriptionShort:
-      'Limpa Alumínio é um limpador concentrado de alto desempenho que remove manchas, oxidação, gordura e sujeiras, restaurando o brilho natural do alumínio.',
-    size: '5 L',
-    imagePath: './assets/products/limpa_alumio.webp',
-    category: '#categoria-automotiva',
-  },
-  {
     id: 29,
     name: 'Limpa vidros',
     description:
@@ -471,7 +482,7 @@ export const products: Products[] = [
       'Cera Automotiva Brilhoflex é desenvolvida para proporcionar proteção, brilho intenso e acabamento superior à pintura automotiva. Sua fórmula auxilia na remoção de pequenas marcas superficiais, realça a cor do veículo e forma uma camada protetora que contribui para repelir água, poeira e agentes externos. É ideal para a manutenção e conservação da pintura, deixando o veículo com aspecto renovado, toque suave e brilho duradouro. É recomendada para uso em carros, motos e demais superfícies automotivas pintadas.',
     descriptionShort:
       'Cera Automotiva Brilhoflex proporciona proteção, brilho intenso e acabamento superior, realçando a cor da pintura e auxiliando na repelência à água e poeira.',
-    size: '',
+    size: '500ml 1L 5L',
     imagePath: '/imagem/cera_automotiva.webp',
     category: '#categoria-automotiva',
   },
@@ -520,7 +531,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
+    imagePath: './assets/products/desengraxante_solupan_amarelo_1_40.webp',
     specifications: [
       {
         property: 'Aspecto',
@@ -557,7 +568,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: './assets/products/desengraxante_solupan_azul.webp',
+    imagePath: './assets/products/desengraxante_solupan_azul_1_40.webp',
     specifications: [
       {
         property: 'Aspecto',
