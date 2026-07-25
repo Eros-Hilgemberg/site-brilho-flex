@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: 'BrilhoFlex',
 
-  whatsappDisplay: '(42) 98417-0663',
+  whatsappDisplay: '(42) 9 8417-0663',
   whatsappNumber: '42984170663',
   whatsappMessage:
-    'Olá! Gostaria de conhecer os produtos da BrilhoFlex e solicitar mais informações.',
-  phoneDisplay: '(42) 98417-0663',
+    'Olá! Gostaria de saber mais sobre os produtos da BrilhoFlex.',
+  phoneDisplay: '(42) 9 8417-0663',
   phoneNumber: '42984170663',
   emailHandle: 'brilhoflex@hotmail.com',
   emailUrl: 'mailto:brilhoflex@hotmail.com',
@@ -23,6 +23,15 @@ export const siteConfig = {
 } as const
 
 export function whatsappUrl(message: string = siteConfig.whatsappMessage) {
+  const digits = siteConfig.whatsappNumber.replace(/\D/g, '')
+  return digits
+    ? `https://wa.me/${digits}?text=${encodeURIComponent(message)}`
+    : '#contato'
+}
+export function whatsappUrlProduct(
+  productName: string,
+  message: string = `Olá! Gostaria de saber mais sobre o produto "${productName}" da BrilhoFlex e solicitar mais informações.`
+) {
   const digits = siteConfig.whatsappNumber.replace(/\D/g, '')
   return digits
     ? `https://wa.me/${digits}?text=${encodeURIComponent(message)}`

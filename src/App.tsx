@@ -32,7 +32,7 @@ import {
   laundry,
   products,
 } from './data/content'
-import { phoneUrl, siteConfig, whatsappUrl } from './data/site'
+import { phoneUrl, siteConfig, whatsappUrl, whatsappUrlProduct } from './data/site'
 
 const CategoryCatalogPage = lazy(() =>
   import('./pages/CategoryCatalogPage').then((module) => ({
@@ -348,8 +348,8 @@ function Products() {
                     href={
                       product.pending
                         ? '#contato'
-                        : whatsappUrl(
-                          `Olá! Gostaria de saber mais sobre o ${product.name}.`,
+                        : whatsappUrlProduct(
+                          product.name,
                         )
                     }
                     variant="secondary"

@@ -1,5 +1,6 @@
-import { X } from 'lucide-react'
+import { MessageCircle, X } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import { whatsappUrlProduct } from '../../data/site'
 import type { Products } from '../../types/products'
 import { ProductImage } from './ProductCatalog'
 
@@ -94,6 +95,15 @@ export function ProductDetailsModal({
                 {product.size || 'Tamanhos não informados'}
               </p>
             </div>
+            <a
+              type="button"
+              target='_blank'
+              href={whatsappUrlProduct(product.name)}
+              className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl border border-brand-500/25 bg-white px-5 py-3 text-sm font-extrabold text-brand-700 transition-colors hover:border-brand-500 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime"
+            >
+              <MessageCircle aria-hidden="true" size={17} />
+              Solicitar Orçamento
+            </a>
 
             {!!product.specifications?.length && (
               <div className="mt-7">
