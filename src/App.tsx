@@ -17,6 +17,8 @@ import { FaqList } from './components/Faq'
 import { FloatingWhatsapp } from './components/FloatingWhatsapp'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
+import { CookieBanner } from './components/CookieBanner'
+import { CookieConsentProvider } from './components/CookieConsentProvider'
 import {
   Button,
   Container,
@@ -42,6 +44,16 @@ const CategoryCatalogPage = lazy(() =>
 const FullCatalogPage = lazy(() =>
   import('./pages/FullCatalogPage').then((module) => ({
     default: module.FullCatalogPage,
+  })),
+)
+const PrivacyPolicyPage = lazy(() =>
+  import('./pages/PrivacyPolicyPage').then((module) => ({
+    default: module.PrivacyPolicyPage,
+  })),
+)
+const TermsOfUsePage = lazy(() =>
+  import('./pages/TermsOfUsePage').then((module) => ({
+    default: module.TermsOfUsePage,
   })),
 )
 
@@ -662,36 +674,56 @@ function LandingPage() {
   )
 }
 
-function App() {
+function LoadingPage() {
+  return (
+    <div
+      className="min-h-screen bg-paper"
+      role="status"
+      aria-label="Carregando página"
+    />
+  )
+}
+
+function AppContent() {
+  const path = window.location.pathname
   const isFullCatalog = isFullCatalogPath(window.location.pathname)
   const categorySlug = getCategorySlug(window.location.pathname)
 
+  if (path === '/politica-de-privacidade') {
+    return (
+      <Suspense fallback={<LoadingPage />}>
+        <PrivacyPolicyPage />
+      </Suspense>
+    )
+  }
+
+  if (path === '/termos-de-uso') {
+    return (
+      <Suspense fallback={<LoadingPage />}>
+        <TermsOfUsePage />
+      </Suspense>
+    )
+  }
+
   return isFullCatalog ? (
-    <Suspense
-      fallback={
-        <div
-          className="min-h-screen bg-paper"
-          role="status"
-          aria-label="Carregando catálogo"
-        />
-      }
-    >
+    <Suspense fallback={<LoadingPage />}>
       <FullCatalogPage />
     </Suspense>
   ) : categorySlug ? (
-    <Suspense
-      fallback={
-        <div
-          className="min-h-screen bg-paper"
-          role="status"
-          aria-label="Carregando catálogo"
-        />
-      }
-    >
+    <Suspense fallback={<LoadingPage />}>
       <CategoryCatalogPage categorySlug={categorySlug} />
     </Suspense>
   ) : (
     <LandingPage />
+  )
+}
+
+function App() {
+  return (
+    <CookieConsentProvider>
+      <AppContent />
+      <CookieBanner />
+    </CookieConsentProvider>
   )
 }
 

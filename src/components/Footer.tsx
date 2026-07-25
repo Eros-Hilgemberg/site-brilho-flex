@@ -7,9 +7,12 @@ import {
   siteConfig,
   whatsappUrl,
 } from '../data/site'
+import { useCookieConsent } from '../hooks/useCookieConsent'
 import { Container } from './ui'
 
 export function Footer() {
+  const { openPreferences } = useCookieConsent()
+
   return (
     <footer className="bg-[#061c33] pb-24 pt-16 text-white sm:pb-10">
       <Container>
@@ -85,6 +88,13 @@ export function Footer() {
           <div className="flex gap-5">
             <a href={siteConfig.policies.privacy}>Política de Privacidade</a>
             <a href={siteConfig.policies.terms}>Termos de Uso</a>
+            <button
+              type="button"
+              className="text-left hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-lime"
+              onClick={openPreferences}
+            >
+              Configurar cookies
+            </button>
           </div>
         </div>
       </Container>
