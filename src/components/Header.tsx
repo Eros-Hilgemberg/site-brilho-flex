@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Menu, MessageCircle, X } from 'lucide-react'
 import logoBrilhoFlex from '../assets/logo_brilho_flex.svg'
-import { navItems, whatsappUrl } from '../data/site'
+import { homeSectionUrl, navItems, whatsappUrl } from '../data/site'
 import { Button, Container } from './ui'
 
 export function Header() {
@@ -27,7 +27,7 @@ export function Header() {
     >
       <Container className="flex h-20 items-center justify-between gap-6">
         <a
-          href="#inicio"
+          href={homeSectionUrl('#inicio')}
           className="rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
           aria-label="BrilhoFlex, início"
         >
@@ -47,7 +47,7 @@ export function Header() {
             <a
               key={item.href}
               className="text-[13px] font-bold text-slate-600 transition hover:text-brand-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
-              href={item.href}
+              href={homeSectionUrl(item.href)}
             >
               {item.label}
             </a>
@@ -79,7 +79,7 @@ export function Header() {
             <a
               key={item.href}
               className="block border-b border-slate-100 py-3.5 font-bold text-brand-900"
-              href={item.href}
+              href={homeSectionUrl(item.href)}
               onClick={() => setOpen(false)}
             >
               {item.label}

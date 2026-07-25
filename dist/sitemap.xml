@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.brilhoflex.com.br/</loc></url>
+  <url><loc>https://www.brilhoflex.com.br/produtos</loc></url>
+  <url><loc>https://www.brilhoflex.com.br/produtos/residencial</loc></url>
+  <url><loc>https://www.brilhoflex.com.br/produtos/profissional</loc></url>
+  <url><loc>https://www.brilhoflex.com.br/produtos/automotiva</loc></url>
 </urlset>

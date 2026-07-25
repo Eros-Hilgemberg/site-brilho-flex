@@ -8,16 +8,16 @@ export const siteConfig = {
   phoneDisplay: '(42) 98417-0663',
   phoneNumber: '42984170663',
   emailHandle: 'brilhoflex@hotmail.com',
-  emailUrl: 'brilhoflex@hotmail.com',
+  emailUrl: 'mailto:brilhoflex@hotmail.com',
   address: 'BR-277, km 248 - s/n - Irati, PR, 84502-170',
   hours: 'Segunda a sexta-feira, das 8h às 18h.',
   cnpj: '05.250.144/0001-10',
   canonicalUrl: 'https://www.brilhoflex.com.br/',
-  catalogUrl: '#produtos',
+  catalogUrl: '/produtos',
   categoryLinks: {
-    residential: '#categoria-residencial',
-    professional: '#categoria-profissional',
-    automotive: '#categoria-automotiva',
+    residential: '/produtos/residencial',
+    professional: '/produtos/profissional',
+    automotive: '/produtos/automotiva',
   },
   policies: { privacy: '/politica-de-privacidade', terms: '/termos-de-uso' },
 } as const
@@ -42,3 +42,7 @@ export const navItems = [
   { label: 'Como comprar', href: '#como-comprar' },
   { label: 'Contato', href: '#contato' },
 ] as const
+
+export function homeSectionUrl(href: string) {
+  return window.location.pathname === '/' ? href : `/${href}`
+}

@@ -8,11 +8,13 @@ import {
   MessageCircle,
   Phone,
   ShoppingBag,
-  Sparkles
+  Sparkles,
 } from 'lucide-react'
+import { lazy, Suspense } from 'react'
 import industrialCleaning from './assets/limpeza_industria_hero.webp'
 import logoBrilhoFlex from './assets/logo_brilho_flex.svg'
 import { FaqList } from './components/Faq'
+import { FloatingWhatsapp } from './components/FloatingWhatsapp'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import {
@@ -29,7 +31,19 @@ import {
   laundry,
   products,
 } from './data/content'
+import { getCategorySlug, isFullCatalogPath } from './data/catalog'
 import { phoneUrl, siteConfig, whatsappUrl } from './data/site'
+
+const CategoryCatalogPage = lazy(() =>
+  import('./pages/CategoryCatalogPage').then((module) => ({
+    default: module.CategoryCatalogPage,
+  })),
+)
+const FullCatalogPage = lazy(() =>
+  import('./pages/FullCatalogPage').then((module) => ({
+    default: module.FullCatalogPage,
+  })),
+)
 
 function Hero() {
   return (
@@ -44,8 +58,7 @@ function Hero() {
             <Sparkles size={16} /> Soluções de limpeza para todos os ambientes
           </p>
           <h1 className="max-w-3xl text-balance text-4xl font-black leading-[1.07] sm:text-5xl lg:text-6xl">
-            Limpeza eficiente com o custo-benefício que você
-            procura
+            Limpeza eficiente com o custo-benefício que você procura
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-7 text-blue-100 sm:text-lg">
             A BrilhoFlex oferece produtos para limpeza residencial,
@@ -336,8 +349,8 @@ function Products() {
                       product.pending
                         ? '#contato'
                         : whatsappUrl(
-                          `Olá! Gostaria de saber mais sobre o ${product.name}.`,
-                        )
+                            `Olá! Gostaria de saber mais sobre o ${product.name}.`,
+                          )
                     }
                     variant="secondary"
                     className="mt-6 w-full"
@@ -597,7 +610,7 @@ function Contact() {
   )
 }
 
-function App() {
+function LandingPage() {
   return (
     <>
       <Header />
@@ -644,17 +657,41 @@ function App() {
         </section>
       </main>
       <Footer />
-      <a
-        href={whatsappUrl()}
-        target={siteConfig.whatsappNumber ? '_blank' : undefined}
-        rel={siteConfig.whatsappNumber ? 'noopener noreferrer' : undefined}
-        className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-40 flex min-h-14 items-center gap-2 rounded-full bg-lime px-4 font-black text-white shadow-2xl transition hover:scale-105 focus-visible:outline focus-visible:outline-4 focus-visible:outline-white"
-        aria-label="Precisa de ajuda? Fale com a BrilhoFlex."
-      >
-        <MessageCircle aria-hidden="true" />
-        <span className="hidden sm:inline">Fale com a BrilhoFlex</span>
-      </a>
+      <FloatingWhatsapp />
     </>
+  )
+}
+
+function App() {
+  const isFullCatalog = isFullCatalogPath(window.location.pathname)
+  const categorySlug = getCategorySlug(window.location.pathname)
+
+  return isFullCatalog ? (
+    <Suspense
+      fallback={
+        <div
+          className="min-h-screen bg-paper"
+          role="status"
+          aria-label="Carregando catálogo"
+        />
+      }
+    >
+      <FullCatalogPage />
+    </Suspense>
+  ) : categorySlug ? (
+    <Suspense
+      fallback={
+        <div
+          className="min-h-screen bg-paper"
+          role="status"
+          aria-label="Carregando catálogo"
+        />
+      }
+    >
+      <CategoryCatalogPage categorySlug={categorySlug} />
+    </Suspense>
+  ) : (
+    <LandingPage />
   )
 }
 

@@ -1,6 +1,12 @@
 import { AtSign, Clock3, MessageCircle, Phone } from 'lucide-react'
 import logoBrilhoFlex from '../assets/logo_brilho_flex.svg'
-import { navItems, phoneUrl, siteConfig, whatsappUrl } from '../data/site'
+import {
+  homeSectionUrl,
+  navItems,
+  phoneUrl,
+  siteConfig,
+  whatsappUrl,
+} from '../data/site'
 import { Container } from './ui'
 
 export function Footer() {
@@ -29,7 +35,10 @@ export function Footer() {
             <ul className="mt-5 grid gap-3 text-sm text-slate-300">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a className="hover:text-white" href={item.href}>
+                  <a
+                    className="hover:text-white"
+                    href={homeSectionUrl(item.href)}
+                  >
                     {item.label}
                   </a>
                 </li>
