@@ -23,6 +23,7 @@ import {
   PlaceholderVisual,
   SectionHeading,
 } from './components/ui'
+import { getCategorySlug, isFullCatalogPath } from './data/catalog'
 import {
   audiences,
   carFoam,
@@ -31,7 +32,6 @@ import {
   laundry,
   products,
 } from './data/content'
-import { getCategorySlug, isFullCatalogPath } from './data/catalog'
 import { phoneUrl, siteConfig, whatsappUrl } from './data/site'
 
 const CategoryCatalogPage = lazy(() =>
@@ -349,8 +349,8 @@ function Products() {
                       product.pending
                         ? '#contato'
                         : whatsappUrl(
-                            `Olá! Gostaria de saber mais sobre o ${product.name}.`,
-                          )
+                          `Olá! Gostaria de saber mais sobre o ${product.name}.`,
+                        )
                     }
                     variant="secondary"
                     className="mt-6 w-full"
@@ -395,7 +395,7 @@ function CommercialBanner() {
             </div>
             <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
               <Button href={whatsappUrl()}>Solicitar orçamento</Button>
-              <Button href="#produtos" variant="light">
+              <Button href={siteConfig.catalogUrl} variant="light">
                 Ver todos os produtos
               </Button>
             </div>

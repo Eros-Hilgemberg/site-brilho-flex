@@ -127,7 +127,7 @@ export const products = [
     name: 'Lava roupas BrilhoFLex',
     description:
       'Lava Roupas é um detergente líquido concentrado que remove sujeiras, manchas e odores, preservando as fibras e as cores dos tecidos.',
-    pending: true,
+    pending: false,
   },
   {
     image: intercap,
@@ -135,7 +135,7 @@ export const products = [
     name: 'Intercap (Desincrustante ácido)',
     description:
       'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas.',
-    pending: true,
+    pending: false,
   },
   {
     image: aromatizante,
@@ -143,7 +143,7 @@ export const products = [
     name: 'Aromatizante Automotivo',
     description:
       'Aromatizante Automotivo perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
-    pending: true,
+    pending: false,
   },
 ]
 
