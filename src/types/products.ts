@@ -20,7 +20,7 @@ export const products: Products[] = [
     descriptionShort:
       'Sapólio Cremoso é um limpador de alta eficiência para remover sujeiras, gorduras e manchas, proporcionando alto poder de limpeza, brilho e aspecto renovado.',
     size: '500 ml e 1000 ml',
-    imagePath: '/image/sapolio_cremoso.png',
+    imagePath: './assets/products/sapolio_cremoso.webp',
     category: '#categoria-residencial',
   },
   {
@@ -31,7 +31,7 @@ export const products: Products[] = [
     descriptionShort:
       'Pasta Limpeza a Seco é uma pasta desengraxante de alta eficiência para remover graxa, óleo, fuligem e sujeiras pesadas, sem necessidade de água durante a aplicação.',
     size: '1 kg e 3,5 kg',
-    imagePath: '/image/pasta_limpeza_a_seco.png',
+    imagePath: './assets/products/pasta_limpeza_a_seco.webp',
     category: '#categoria-residencial',
   },
   {
@@ -42,7 +42,7 @@ export const products: Products[] = [
     descriptionShort:
       'Detergente Neutro é um detergente de alta eficiência para limpeza diária de louças, utensílios e superfícies laváveis, com espuma abundante e excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/detergente_neutro.png',
+    imagePath: './assets/products/detergente_neutro.webp',
     category: '#categoria-residencial',
   },
   {
@@ -53,7 +53,7 @@ export const products: Products[] = [
     descriptionShort:
       'Lava Roupas é um detergente líquido concentrado que remove sujeiras, manchas e odores, preservando as fibras e as cores dos tecidos.',
     size: '5 L e 20 L',
-    imagePath: '/image/lava_roupas.png',
+    imagePath: './assets/products/lava_roupas.webp',
     category: '#categoria-residencial',
   },
   {
@@ -64,7 +64,7 @@ export const products: Products[] = [
     descriptionShort:
       'Lava Roupas é um detergente líquido concentrado que remove sujeiras, manchas e odores, preservando as fibras e as cores dos tecidos.',
     size: '5 L e 20 L',
-    imagePath: '/image/lava_roupas_coco.png',
+    imagePath: './assets/products/lava_roupas_coco.webp',
     category: '#categoria-residencial',
   },
   {
@@ -75,7 +75,7 @@ export const products: Products[] = [
     descriptionShort:
       'Amaciante de Roupas proporciona maciez, perfumação prolongada e cuidado com os tecidos, facilitando o passar das roupas e preservando sua aparência.',
     size: '5 L',
-    imagePath: '/image/amaciante_roupas_confort_soft.png',
+    imagePath: './assets/products/amaciante_roupas_confort_soft.webp',
     category: '#categoria-residencial',
   },
   {
@@ -86,7 +86,7 @@ export const products: Products[] = [
     descriptionShort:
       'Amaciante de Roupas proporciona maciez, perfumação prolongada e cuidado com os tecidos, facilitando o passar das roupas e preservando sua aparência.',
     size: '5 L',
-    imagePath: '/image/amaciante_roupas_soft_caricia.png',
+    imagePath: './assets/products/amaciante_roupas_soft_caricia.webp',
     category: '#categoria-residencial',
   },
   {
@@ -97,7 +97,7 @@ export const products: Products[] = [
     descriptionShort:
       'Amaciante de Roupas proporciona maciez, perfumação prolongada e cuidado com os tecidos, facilitando o passar das roupas e preservando sua aparência.',
     size: '5 L',
-    imagePath: '/image/amaciante_roupas_conforto_orginal.png',
+    imagePath: './assets/products/amaciante_roupas_conforto_orginal.webp',
     category: '#categoria-residencial',
   },
   {
@@ -108,7 +108,7 @@ export const products: Products[] = [
     descriptionShort:
       'Amaciante de Roupas proporciona maciez, perfumação prolongada e cuidado com os tecidos, facilitando o passar das roupas e preservando sua aparência.',
     size: '5 L',
-    imagePath: '/image/amaciante_roupas_coco_e_baunilha.png',
+    imagePath: './assets/products/amaciante_roupas_coco_e_baunilha.webp',
     category: '#categoria-residencial',
   },
   {
@@ -119,7 +119,7 @@ export const products: Products[] = [
     descriptionShort:
       'Álcool Perfumado é um limpador de uso geral que higieniza e perfuma superfícies laváveis, proporcionando secagem rápida e agradável fragrância.',
     size: '5 L',
-    imagePath: '/image/alcool_perfumado_lavanda.png',
+    imagePath: './assets/products/alcool_perfumado_lavanda.webp',
     category: '#categoria-residencial',
   },
   {
@@ -130,7 +130,7 @@ export const products: Products[] = [
     descriptionShort:
       'Multiuso é um limpador de uso geral de alta eficiência que remove sujeiras, gorduras e poeira, deixando superfícies limpas e com agradável fragrância.',
     size: '5 L',
-    imagePath: '/imagem/multi_uso_limao.png',
+    imagePath: '/imagem/multi_uso_limao.webp',
     category: '#categoria-residencial',
   },
   {
@@ -141,7 +141,7 @@ export const products: Products[] = [
     descriptionShort:
       'Cloro Gel é um limpador clorado de alta eficiência que promove limpeza profunda, auxilia na higienização e remove manchas, gordura e limo.',
     size: '5 L',
-    imagePath: '/image/cloro_gel.png',
+    imagePath: './assets/products/cloro_gel.webp',
     category: '#categoria-residencial',
   },
   {
@@ -152,7 +152,7 @@ export const products: Products[] = [
     descriptionShort:
       'Alvejante sem Cloro potencializa a remoção de manchas e sujeiras, preservando as cores e as fibras dos tecidos em lavagens manuais e em máquinas.',
     size: '5 L',
-    imagePath: '/image/alvejante_sem_cloro_roupas_brancas_coloridas.png',
+    imagePath: './assets/products/alvejante_sem_cloro_roupas_brancas_coloridas.webp',
     category: '#categoria-residencial',
   },
   {
@@ -163,7 +163,7 @@ export const products: Products[] = [
     descriptionShort:
       'Alvejante sem Cloro para Roupas Brancas potencializa a remoção de manchas, ajuda a manter a brancura das peças e preserva as fibras dos tecidos.',
     size: '5 L',
-    imagePath: '/image/alvejante_sem_cloro_roupas_brancas.png',
+    imagePath: './assets/products/alvejante_sem_cloro_roupas_brancas.webp',
     category: '#categoria-residencial',
   },
   {
@@ -174,7 +174,7 @@ export const products: Products[] = [
     descriptionShort:
       'Água Sanitária é um alvejante à base de hipoclorito de sódio para limpeza, higienização de superfícies laváveis e alvejamento de roupas brancas.',
     size: '5 L',
-    imagePath: '/image/agua_sanitaria.png',
+    imagePath: './assets/products/agua_sanitaria.webp',
     category: '#categoria-residencial',
   },
   {
@@ -185,7 +185,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpa Vidros é um limpador de alta eficiência que remove sujeiras, proporciona brilho, transparência e secagem rápida sem deixar resíduos.',
     size: '5 L',
-    imagePath: '/image/limpa_vidros.png',
+    imagePath: './assets/products/limpa_vidros.webp',
     category: '#categoria-residencial',
   },
   {
@@ -196,7 +196,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
-    imagePath: '/imagem/limpador_perfumado_lavanda.png',
+    imagePath: '/imagem/limpador_perfumado_lavanda.webp',
     category: '#categoria-residencial',
   },
   {
@@ -207,7 +207,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
-    imagePath: '/imagem/limpador_perfumado_eucalipto.png',
+    imagePath: '/imagem/limpador_perfumado_eucalipto.webp',
     category: '#categoria-residencial',
   },
   {
@@ -218,7 +218,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
-    imagePath: '/imagem/limpador_perfumado_algas_marinhas.png',
+    imagePath: '/imagem/limpador_perfumado_algas_marinhas.webp',
     category: '#categoria-residencial',
   },
   {
@@ -229,7 +229,7 @@ export const products: Products[] = [
     descriptionShort:
       'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/intercap.png',
+    imagePath: './assets/products/intercap.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -240,7 +240,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/desengraxante_solupan_amarelo.png',
+    imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -251,7 +251,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/desengraxante_solupan_azul.png',
+    imagePath: './assets/products/desengraxante_solupan_azul.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -262,7 +262,7 @@ export const products: Products[] = [
     descriptionShort:
       'Pneu Pretinho revitaliza a aparência dos pneus, proporciona acabamento uniforme e duradouro, protege a borracha e auxilia na repulsão de poeira e sujeiras.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/pneu_pretinho_gel.png',
+    imagePath: './assets/products/pneu_pretinho_gel.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -273,7 +273,7 @@ export const products: Products[] = [
     descriptionShort:
       'ALKA-FLEX -100 é um detergente concentrado de baixa espuma para limpeza de carpetes, estofados e revestimentos têxteis, com alto poder de limpeza e secagem rápida.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/alka_flex_100_limpa_carpete_brilho_flex.png',
+    imagePath: './assets/products/alka_flex_100_limpa_carpete_brilho_flex.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -284,7 +284,7 @@ export const products: Products[] = [
     descriptionShort:
       'Silicone Gel revitaliza superfícies automotivas, realça o brilho, protege plásticos, borrachas, vinil e couro sintético e proporciona acabamento uniforme e duradouro.',
     size: '250 g, 800 g e 3,5 kg',
-    imagePath: '/image/silicone_gel_tutti_frutti.png',
+    imagePath: './assets/products/silicone_gel_tutti_frutti.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -295,7 +295,7 @@ export const products: Products[] = [
     descriptionShort:
       'Silicone Gel revitaliza superfícies automotivas, realça o brilho, protege plásticos, borrachas, vinil e couro sintético e proporciona acabamento uniforme e duradouro.',
     size: '250 g, 800 g e 3,5 kg',
-    imagePath: '/image/silicone_gel_carro_novo.png',
+    imagePath: './assets/products/silicone_gel_carro_novo.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -306,7 +306,7 @@ export const products: Products[] = [
     descriptionShort:
       'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/lava_autos.png',
+    imagePath: './assets/products/lava_autos.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -317,7 +317,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpa Alumínio é um limpador concentrado de alto desempenho que remove manchas, oxidação, gordura e sujeiras, restaurando o brilho natural do alumínio.',
     size: '5 L',
-    imagePath: '/image/limpa_alumio.png',
+    imagePath: './assets/products/limpa_alumio.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -328,7 +328,7 @@ export const products: Products[] = [
     descriptionShort:
       'Limpa Vidros é um limpador de alta eficiência que remove sujeiras, proporciona brilho, transparência e secagem rápida sem deixar resíduos.',
     size: '5 L',
-    imagePath: '/image/limpa_vidros.png',
+    imagePath: './assets/products/limpa_vidros.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -339,7 +339,7 @@ export const products: Products[] = [
     descriptionShort:
       'Aromatizante Automotivo perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
     size: '200 ml e 250 ml',
-    imagePath: '/image/aromatizante_automotivo.png',
+    imagePath: './assets/products/aromatizante_automotivo.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -350,7 +350,7 @@ export const products: Products[] = [
     descriptionShort:
       'Cera de Carnaúba proporciona brilho intenso, proteção e acabamento à pintura, auxiliando na repelência à água, poeira e impurezas.',
     size: '200 g',
-    imagePath: '/image/cera_de_carnauba.png',
+    imagePath: './assets/products/cera_de_carnauba.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -361,7 +361,7 @@ export const products: Products[] = [
     descriptionShort:
       'Cera Automotiva Brilhoflex proporciona proteção, brilho intenso e acabamento superior, realçando a cor da pintura e auxiliando na repelência à água e poeira.',
     size: '',
-    imagePath: '/imagem/cera_automotiva.png',
+    imagePath: '/imagem/cera_automotiva.webp',
     category: '#categoria-automotiva',
   },
   {
@@ -372,7 +372,7 @@ export const products: Products[] = [
     descriptionShort:
       'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/intercap.png',
+    imagePath: './assets/products/intercap.webp',
     category: '#categoria-profissional',
   },
   {
@@ -383,7 +383,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/desengraxante_solupan_amarelo.png',
+    imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
     category: '#categoria-profissional',
   },
   {
@@ -394,7 +394,7 @@ export const products: Products[] = [
     descriptionShort:
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/desengraxante_solupan_azul.png',
+    imagePath: './assets/products/desengraxante_solupan_azul.webp',
     category: '#categoria-profissional',
   },
   {
@@ -405,7 +405,7 @@ export const products: Products[] = [
     descriptionShort:
       'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
-    imagePath: '/image/lava_autos.png',
+    imagePath: './assets/products/lava_autos.webp',
     category: '#categoria-profissional',
   },
 ]
