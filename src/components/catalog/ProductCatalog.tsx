@@ -1,9 +1,8 @@
-import { ImageOff, MessageCircle, PackageSearch, Search, X } from 'lucide-react'
+import { ImageOff, Info, PackageSearch, Search, X } from 'lucide-react'
 import { useRef, useState } from 'react'
 import { categoryLabels } from '../../data/catalog'
-import { whatsappUrl } from '../../data/site'
 import type { Products } from '../../types/products'
-import { Button } from '../ui'
+import { ProductDetailsModal } from './ProductDetailsModal'
 
 const productImageModules = import.meta.glob('../../assets/products/*', {
   eager: true,
@@ -38,12 +37,18 @@ function ImagePlaceholder() {
   )
 }
 
-export function ProductImage({ product }: { product: Products }) {
+export function ProductImage({
+  product,
+  className = 'h-60',
+}: {
+  product: Products
+  className?: string
+}) {
   const imageSource = resolveProductImage(product.imagePath)
   const [hasError, setHasError] = useState(!imageSource)
 
   return (
-    <div className="h-60 overflow-hidden bg-white">
+    <div className={`${className} overflow-hidden bg-white`}>
       {hasError ? (
         <ImagePlaceholder />
       ) : (
@@ -65,9 +70,11 @@ export function ProductImage({ product }: { product: Products }) {
 export function ProductCard({
   product,
   showCategory = false,
+  onMoreInfo,
 }: {
   product: Products
   showCategory?: boolean
+  onMoreInfo: (product: Products) => void
 }) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft">
@@ -92,16 +99,14 @@ export function ProductCard({
             {product.size || 'Tamanhos não informados'}
           </p>
         </div>
-        <Button
-          href={whatsappUrl(
-            `Olá! Gostaria de saber mais sobre o produto ${product.name}.`,
-          )}
-          className="mt-5 w-full"
-          variant="secondary"
+        <button
+          type="button"
+          onClick={() => onMoreInfo(product)}
+          className="mt-5 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-brand-500/25 bg-white px-5 py-3 text-sm font-extrabold text-brand-700 transition-colors hover:border-brand-500 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime"
         >
-          <MessageCircle aria-hidden="true" size={17} />
-          Consultar produto
-        </Button>
+          <Info aria-hidden="true" size={17} />
+          Mais informações
+        </button>
       </div>
     </article>
   )
@@ -213,6 +218,8 @@ export function ProductGrid({
   onClearSearch: () => void
   showCategory?: boolean
 }) {
+  const [selectedProduct, setSelectedProduct] = useState<Products | null>(null)
+
   if (products.length === 0) {
     return (
       <EmptyProductsState searchTerm={searchTerm} onClear={onClearSearch} />
@@ -220,14 +227,23 @@ export function ProductGrid({
   }
 
   return (
-    <div className="grid items-stretch gap-6 sm:grid-cols-2 xl:grid-cols-3">
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          product={product}
-          showCategory={showCategory}
+    <>
+      <div className="grid items-stretch gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        {products.map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+            showCategory={showCategory}
+            onMoreInfo={setSelectedProduct}
+          />
+        ))}
+      </div>
+      {selectedProduct && (
+        <ProductDetailsModal
+          product={selectedProduct}
+          onClose={() => setSelectedProduct(null)}
         />
-      ))}
-    </div>
+      )}
+    </>
   )
 }

@@ -1,3 +1,8 @@
+export interface ProductSpecification {
+  property: string
+  specification: string
+}
+
 export interface Products {
   id: number
   name: string
@@ -5,6 +10,7 @@ export interface Products {
   descriptionShort: string
   size: string
   imagePath: string
+  specifications?: ProductSpecification[]
   category:
     | '#categoria-residencial'
     | '#categoria-profissional'
@@ -152,7 +158,8 @@ export const products: Products[] = [
     descriptionShort:
       'Alvejante sem Cloro potencializa a remoção de manchas e sujeiras, preservando as cores e as fibras dos tecidos em lavagens manuais e em máquinas.',
     size: '5 L',
-    imagePath: './assets/products/alvejante_sem_cloro_roupas_brancas_coloridas.webp',
+    imagePath:
+      './assets/products/alvejante_sem_cloro_roupas_brancas_coloridas.webp',
     category: '#categoria-residencial',
   },
   {
@@ -230,6 +237,32 @@ export const products: Products[] = [
       'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/intercap.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Violeta',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '2,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,090',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-automotiva',
   },
   {
@@ -241,6 +274,32 @@ export const products: Products[] = [
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '11,3',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,080 a 1,100',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-automotiva',
   },
   {
@@ -252,6 +311,32 @@ export const products: Products[] = [
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/desengraxante_solupan_azul.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Azul',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '11,3',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,080 a 1,100',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-automotiva',
   },
   {
@@ -307,6 +392,32 @@ export const products: Products[] = [
       'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '6,5 - 7,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,080',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-automotiva',
   },
   {
@@ -373,6 +484,32 @@ export const products: Products[] = [
       'Intercap é um desincrustante ácido para limpezas pesadas, com fórmula altamente concentrada e excelente desempenho na remoção de sujeiras incrustadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/intercap.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Violeta',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '2,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,090',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-profissional',
   },
   {
@@ -384,6 +521,32 @@ export const products: Products[] = [
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/desengraxante_solupan_amarelo.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '11,3',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,080 a 1,100',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-profissional',
   },
   {
@@ -395,6 +558,32 @@ export const products: Products[] = [
       'Solupan é um desengraxante alcalino altamente concentrado para limpezas pesadas, indicado para remover graxas, óleos e gorduras incrustadas em aplicações automotivas e industriais.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/desengraxante_solupan_azul.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Azul',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '11,3',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,080 a 1,100',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-profissional',
   },
   {
@@ -406,6 +595,32 @@ export const products: Products[] = [
       'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '6,5 - 7,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,080',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
     category: '#categoria-profissional',
   },
 ]
