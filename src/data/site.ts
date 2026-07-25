@@ -2,11 +2,11 @@ export const siteConfig = {
   name: 'BrilhoFlex',
 
   whatsappDisplay: '(42) 8417-0663',
-  whatsappNumber: '4284170663',
+  whatsappNumber: '554284170663',
   whatsappMessage:
     'Olá! Gostaria de saber mais sobre os produtos da BrilhoFlex.',
   phoneDisplay: '(42) 8417-0663',
-  phoneNumber: '4284170663',
+  phoneNumber: '554284170663',
   emailHandle: 'brilhoflex@hotmail.com',
   emailUrl: 'mailto:brilhoflex@hotmail.com',
   address: 'BR-277, km 248 - s/n - Irati, PR, 84502-170',
