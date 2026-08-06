@@ -52,6 +52,17 @@ export const products: Products[] = [
     category: '#categoria-residencial',
   },
   {
+    id: 38,
+    name: 'Detergente Neutro Limão',
+    description:
+      'Detergente Neutro Limão é um detergente de alta eficiência, desenvolvido para a limpeza diária de utensílios, louças, superfícies e equipamentos laváveis. Sua fórmula balanceada remove com facilidade gorduras e sujeiras, proporcionando limpeza eficiente sem agredir as superfícies. Produz espuma abundante, possui fácil enxágue e excelente rendimento, sendo ideal para uso doméstico, comercial e profissional. É indicado para a limpeza de louças e utensílios, pias, bancadas, vidros, superfícies laváveis, equipamentos de cozinha e limpeza geral de ambientes. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
+    descriptionShort:
+      'Detergente Neutro Limão é um detergente de alta eficiência para limpeza diária de louças, utensílios e superfícies laváveis, com espuma abundante e excelente rendimento.',
+    size: '5 L, 20 L, 25 L e 50 L',
+    imagePath: './assets/products/detergente_neutro_limao.webp',
+    category: '#categoria-residencial',
+  },
+  {
     id: 4,
     name: 'Lava Roupas',
     description:
@@ -443,6 +454,43 @@ export const products: Products[] = [
     category: '#categoria-automotiva',
   },
   {
+    id: 39,
+    name: 'Lava Autos com Cera',
+    description:
+      'Lava Autos com Cera é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+    descriptionShort:
+      'Lava Autos com Cera é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+    size: '5 L, 20 L, 25 L e 50 L',
+    imagePath: './assets/products/lava_autos_cera.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '6,5 - 7,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,080',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
+    category: '#categoria-automotiva',
+  },
+  {
     id: 29,
     name: 'Limpa vidros',
     description:
@@ -606,6 +654,43 @@ export const products: Products[] = [
       'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos.webp',
+    specifications: [
+      {
+        property: 'Aspecto',
+        specification: 'Líquido viscoso',
+      },
+      {
+        property: 'Cor',
+        specification: 'Amarelo',
+      },
+      {
+        property: 'Odor',
+        specification: 'Característico',
+      },
+      {
+        property: 'PH',
+        specification: '6,5 - 7,5',
+      },
+      {
+        property: 'Densidade',
+        specification: '1,03 - 1,080',
+      },
+      {
+        property: 'Viscosidade',
+        specification: '> 1 Minuto',
+      },
+    ],
+    category: '#categoria-profissional',
+  },
+  {
+    id: 40,
+    name: 'Lava Autos com Cera',
+    description:
+      'Lava Autos com Cera é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+    descriptionShort:
+      'Lava Autos com Cera é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+    size: '5 L, 20 L, 25 L e 50 L',
+    imagePath: './assets/products/lava_autos_cera.webp',
     specifications: [
       {
         property: 'Aspecto',

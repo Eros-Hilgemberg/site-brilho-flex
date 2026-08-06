@@ -12,9 +12,9 @@ import carFoam from '../assets/carro_com_espuma.webp'
 import carWax from '../assets/cera_no_carro.webp'
 import industrialFoam from '../assets/limpeza_industria_hero.webp'
 import laundry from '../assets/maquina_roupas.webp'
-import aromatizante from '../assets/products/aromatizante_automotivo.webp'
 import intercap from '../assets/products/intercap.webp'
 import lavaroupas from '../assets/products/lava_roupas.webp'
+import limpeza_a_seco from '../assets/products/pasta_limpeza_a_seco.webp'
 
 export const differentials = [
   {
@@ -69,8 +69,7 @@ export const categories = [
     items: [
       'Limpadores concentrados',
       'Desengordurantes',
-      'Desinfetantes',
-      'Produtos para pisos',
+      'Desincrustantes',
       'Produtos para limpeza pesada',
       'Soluções para uso profissional',
     ],
@@ -89,6 +88,7 @@ export const categories = [
       'Desengraxantes',
       'Limpadores internos',
       'Produtos para pneus',
+      'Desincrustantes',
       'Ceras',
       'Produtos para acabamento e conservação',
     ],
@@ -138,11 +138,11 @@ export const products = [
     pending: false,
   },
   {
-    image: aromatizante,
+    image: limpeza_a_seco,
     category: 'Limpeza automotiva',
-    name: 'Aromatizante Automotivo',
+    name: 'Pasta para Limpeza a Seco',
     description:
-      'Aromatizante Automotivo perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
+      'Pasta para Limpeza a Seco perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
     pending: false,
   },
 ]

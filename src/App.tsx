@@ -13,12 +13,12 @@ import {
 import { lazy, Suspense } from 'react'
 import industrialCleaning from './assets/limpeza_industria_hero.webp'
 import logoBrilhoFlex from './assets/logo_brilho_flex.svg'
+import { CookieBanner } from './components/CookieBanner'
+import { CookieConsentProvider } from './components/CookieConsentProvider'
 import { FaqList } from './components/Faq'
 import { FloatingWhatsapp } from './components/FloatingWhatsapp'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-import { CookieBanner } from './components/CookieBanner'
-import { CookieConsentProvider } from './components/CookieConsentProvider'
 import {
   Button,
   Container,
