@@ -212,7 +212,7 @@ export const products: Products[] = [
     description:
       'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_lavanda.webp',
     category: '#categoria-residencial',
@@ -223,7 +223,7 @@ export const products: Products[] = [
     description:
       'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_floral.webp',
     category: '#categoria-residencial',
@@ -234,7 +234,7 @@ export const products: Products[] = [
     description:
       'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_eucalipto.webp',
     category: '#categoria-residencial',
@@ -245,7 +245,7 @@ export const products: Products[] = [
     description:
       'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_algas_marinhas.webp',
     category: '#categoria-residencial',
