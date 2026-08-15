@@ -33,9 +33,9 @@ export const products: Products[] = [
     id: 2,
     name: 'Pasta Limpeza a Seco',
     description:
-      'Pasta Limpeza a Seco é uma pasta desengraxante de alta eficiência, desenvolvida para a remoção de graxa, óleo, fuligem e sujeiras pesadas sem a necessidade de água durante a aplicação. Sua fórmula promove limpeza profunda, facilita a remoção de resíduos impregnados e deixa as superfícies e as mãos com sensação de limpeza e cuidado. É amplamente utilizada por mecânicos, oficinas e profissionais da manutenção, além de ser indicada para uso doméstico na limpeza de superfícies engorduradas, como fogões, fornos, grelhas e áreas de preparo de alimentos. Possui alto rendimento, fácil aplicação e proporciona limpeza profunda sem agredir as superfícies quando utilizada conforme as instruções. Está disponível nas embalagens de 1 kg e 3,5 kg.',
+      'A Pasta para Limpeza a Seco é indicada para a remoção de gorduras, óleos e sujeiras aderidas, proporcionando uma limpeza eficiente sem a necessidade de utilizar água. Está disponível nas embalagens de 1 kg e 3,5 kg.',
     descriptionShort:
-      'Pasta Limpeza a Seco é uma pasta desengraxante de alta eficiência para remover graxa, óleo, fuligem e sujeiras pesadas, sem necessidade de água durante a aplicação.',
+      'A Pasta para Limpeza a Seco é indicada para a remoção de gorduras, óleos e sujeiras aderidas, proporcionando uma limpeza eficiente sem a necessidade de utilizar água.',
     size: '1 kg e 3,5 kg',
     imagePath: './assets/products/pasta_limpeza_a_seco.webp',
     category: '#categoria-residencial',
