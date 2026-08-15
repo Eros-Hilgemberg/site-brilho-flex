@@ -210,9 +210,9 @@ export const products: Products[] = [
     id: 17,
     name: 'Limpador Perfumado Lavanda',
     description:
-      'Limpador Perfumado Desinfetante é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
+      'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_lavanda.webp',
     category: '#categoria-residencial',
@@ -221,9 +221,9 @@ export const products: Products[] = [
     id: 37,
     name: 'Limpador Perfumado Floral',
     description:
-      'Limpador Perfumado Desinfetante é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
+      'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_floral.webp',
     category: '#categoria-residencial',
@@ -232,9 +232,9 @@ export const products: Products[] = [
     id: 18,
     name: 'Limpador Perfumado Eucalipto',
     description:
-      'Limpador Perfumado Desinfetante é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
+      'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_eucalipto.webp',
     category: '#categoria-residencial',
@@ -243,9 +243,9 @@ export const products: Products[] = [
     id: 19,
     name: 'Limpador Perfumado Algas Marinhas',
     description:
-      'Limpador Perfumado Desinfetante é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
+      'Limpador Perfumado é um produto desenvolvido para promover limpeza, desinfecção e perfumação de ambientes em uma única aplicação. Sua fórmula remove sujeiras do dia a dia, auxilia no controle de microrganismos* e elimina odores, deixando um agradável perfume de longa duração. Proporciona higienização eficiente de superfícies laváveis, excelente rendimento e é indicado para uso doméstico, comercial e institucional, deixando os ambientes limpos, higienizados e com sensação prolongada de frescor. É indicado para aplicação em pisos, revestimentos, banheiros, lavabos, cozinhas, azulejos, paredes laváveis, pias, bancadas e superfícies laváveis em geral. Está disponível na embalagem de 5 L, nas fragrâncias Lavanda, Floral, Algas Marinhas e Eucalipto.',
     descriptionShort:
-      'Limpador Perfumado Desinfetante limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
+      'Limpador Perfumado limpa, desinfeta e perfuma ambientes, elimina odores e auxilia no controle de microrganismos* em superfícies laváveis.',
     size: '5 L',
     imagePath: '/imagem/limpador_perfumado_algas_marinhas.webp',
     category: '#categoria-residencial',
@@ -374,22 +374,22 @@ export const products: Products[] = [
   },
   {
     id: 23,
-    name: 'Pneu Pretinho',
+    name: 'Pneu Pretinho Gel',
     description:
-      'Pneu Pretinho é um revitalizador de pneus de alta performance, desenvolvido para restaurar a aparência original da borracha e proporcionar acabamento uniforme e duradouro. Sua fórmula protege contra o ressecamento e o desgaste causado pela ação do tempo e pelos raios UV, além de criar uma película que auxilia na repulsão de poeira e sujeiras, mantendo os pneus com aspecto renovado por mais tempo. Possui fácil aplicação, excelente rendimento e é indicado para uso profissional e doméstico, sendo ideal para centros automotivos, lava-rápidos e estéticas automotivas. Está disponível nas embalagens de 1 L, 5 L, 20 L e 50 L.',
+      'Pneu Pretinho Gel é um revitalizador de pneus de alta performance, desenvolvido para restaurar a aparência original da borracha e proporcionar acabamento uniforme e duradouro. Sua fórmula protege contra o ressecamento e o desgaste causado pela ação do tempo e pelos raios UV, além de criar uma película que auxilia na repulsão de poeira e sujeiras, mantendo os pneus com aspecto renovado por mais tempo. Possui fácil aplicação, excelente rendimento e é indicado para uso profissional e doméstico, sendo ideal para centros automotivos, lava-rápidos e estéticas automotivas. Está disponível nas embalagens de 1 L, 5 L, 20 L e 50 L.',
     descriptionShort:
-      'Pneu Pretinho revitaliza a aparência dos pneus, proporciona acabamento uniforme e duradouro, protege a borracha e auxilia na repulsão de poeira e sujeiras.',
+      'Pneu Pretinho Gel revitaliza a aparência dos pneus, proporciona acabamento uniforme e duradouro, protege a borracha e auxilia na repulsão de poeira e sujeiras.',
     size: '1L, 5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/pneu_pretinho_gel.webp',
     category: '#categoria-automotiva',
   },
   {
     id: 24,
-    name: 'ALKA-FLEX -100 (Limpa Carpete)',
+    name: 'ALKA-FLEX -100',
     description:
-      'ALKA-FLEX -100 (Limpa Carpete) é um detergente concentrado de baixa espuma, desenvolvido para a limpeza profissional de carpetes, estofados, bancos automotivos e revestimentos têxteis. Sua formulação promove alto poder de limpeza, removendo manchas, poeira, gordura e resíduos impregnados, preservando as fibras dos tecidos e proporcionando excelente rendimento, rápida secagem e acabamento impecável. Deixa uma agradável fragrância e é indicado para uso automotivo, residencial e profissional, sendo ideal para utilização em extratoras e pulverizadores. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
+      'ALKA-FLEX -100 é um detergente concentrado, desenvolvido para a limpeza profissional de carpetes, estofados, bancos automotivos e revestimentos têxteis. Sua formulação promove alto poder de limpeza, removendo manchas, poeira, gordura e resíduos impregnados, preservando as fibras dos tecidos e proporcionando excelente rendimento, rápida secagem e acabamento impecável. Deixa uma agradável fragrância e é indicado para uso automotivo, residencial e profissional, sendo ideal para utilização em extratoras e pulverizadores. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L.',
     descriptionShort:
-      'ALKA-FLEX -100 é um detergente concentrado de baixa espuma para limpeza de carpetes, estofados e revestimentos têxteis, com alto poder de limpeza e secagem rápida.',
+      'ALKA-FLEX -100 é um detergente concentrado para limpeza de carpetes, estofados e revestimentos têxteis, com alto poder de limpeza e secagem rápida.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/alka_flex_100_limpa_carpete_brilho_flex.webp',
     category: '#categoria-automotiva',
@@ -420,9 +420,9 @@ export const products: Products[] = [
     id: 27,
     name: 'Lava Autos',
     description:
-      'Lava Autos é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+      'Lava Autos é um detergente automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
     descriptionShort:
-      'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+      'Lava Autos é um detergente automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos.webp',
     specifications: [
@@ -457,9 +457,9 @@ export const products: Products[] = [
     id: 39,
     name: 'Lava Autos com Cera',
     description:
-      'Lava Autos com Cera é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+      'Lava Autos com Cera é um detergente automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
     descriptionShort:
-      'Lava Autos com Cera é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+      'Lava Autos com Cera é um detergente automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos_cera.webp',
     specifications: [
@@ -502,23 +502,12 @@ export const products: Products[] = [
     category: '#categoria-automotiva',
   },
   {
-    id: 30,
-    name: 'Aromatizante Automotivo',
-    description:
-      'Aromatizante Automotivo é um odorizador desenvolvido para perfumar o interior dos veículos com fragrâncias agradáveis e duradouras. Sua fórmula proporciona sensação de frescor, auxilia na neutralização de odores desagradáveis e mantém o ambiente interno mais agradável durante o uso diário. É indicado para automóveis, caminhões, ônibus, utilitários, cabines e interiores de veículos. Possui fácil aplicação, excelente rendimento e está disponível nas fragrâncias Tutti Frutti e Carro Novo. É comercializado nas embalagens de 200 ml e 250 ml.',
-    descriptionShort:
-      'Aromatizante Automotivo perfuma o interior dos veículos, auxilia na neutralização de odores e proporciona sensação de frescor com fragrâncias duradouras.',
-    size: '200 ml e 250 ml',
-    imagePath: './assets/products/aromatizante_automotivo.webp',
-    category: '#categoria-automotiva',
-  },
-  {
     id: 31,
     name: 'Cera de Carnaúba',
     description:
-      'Cera de Carnaúba é uma cera automotiva de alta performance, formulada com cera de carnaúba para proporcionar brilho intenso, proteção e acabamento de alto padrão à pintura do veículo. Sua fórmula cria uma película protetora que auxilia na repelência à água, poeira e impurezas, preservando o brilho e valorizando a aparência da pintura por mais tempo. Possui fácil aplicação, excelente rendimento e é indicada para uso profissional e doméstico. Pode ser utilizada em automóveis, motocicletas, caminhões, utilitários e superfícies pintadas em geral. Está disponível na embalagem de 200 g.',
+      'Cera de Carnaúba é uma cera automotiva de alta performance, formulada com cera de carnaúba para proporcionar brilho intenso, proteção e acabamento de alto padrão ao plástico. Sua fórmula cria uma película protetora que auxilia na repelência à água, poeira e impurezas, preservando o brilho e valorizando a aparência por mais tempo. Possui fácil aplicação, excelente rendimento e é indicada para uso profissional e doméstico. Pode ser utilizada em automóveis, motocicletas, caminhões, utilitários e superfícies em geral. Está disponível na embalagem de 200 g.',
     descriptionShort:
-      'Cera de Carnaúba proporciona brilho intenso, proteção e acabamento à pintura, auxiliando na repelência à água, poeira e impurezas.',
+      'Cera de Carnaúba proporciona brilho intenso, proteção e acabamento ao plástico, auxiliando na repelência à água, poeira e impurezas.',
     size: '200 g',
     imagePath: './assets/products/cera_de_carnauba.webp',
     category: '#categoria-automotiva',
@@ -649,9 +638,9 @@ export const products: Products[] = [
     id: 36,
     name: 'Lava Autos',
     description:
-      'Lava Autos é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+      'Lava Autos é um detergente automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
     descriptionShort:
-      'Lava Autos é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+      'Lava Autos é um detergente automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos.webp',
     specifications: [
@@ -686,9 +675,9 @@ export const products: Products[] = [
     id: 40,
     name: 'Lava Autos com Cera',
     description:
-      'Lava Autos com Cera é um shampoo automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
+      'Lava Autos com Cera é um detergente automotivo de alta performance, desenvolvido para proporcionar uma limpeza eficiente e segura da pintura veicular. Sua fórmula concentrada remove poeira, barro, fuligem, gordura leve e demais impurezas sem agredir a pintura, preservando o brilho e o acabamento original do veículo. Produz espuma abundante, facilita o deslizamento da luva ou esponja durante a lavagem e garante excelente rendimento, sendo indicado para uso profissional e doméstico. É indicado para aplicação em pintura automotiva, vidros, rodas, para-choques e superfícies metálicas e pintadas. Está disponível nas embalagens de 5 L, 20 L, 25 L e 50 L, nas versões com cera e sem cera.',
     descriptionShort:
-      'Lava Autos com Cera é um shampoo automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
+      'Lava Autos com Cera é um detergente automotivo de alta performance, com fórmula concentrada que limpa a pintura, preserva o brilho e proporciona excelente rendimento.',
     size: '5 L, 20 L, 25 L e 50 L',
     imagePath: './assets/products/lava_autos_cera.webp',
     specifications: [

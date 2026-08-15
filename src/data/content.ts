@@ -90,7 +90,6 @@ export const categories = [
       'Produtos para pneus',
       'Desincrustantes',
       'Ceras',
-      'Produtos para acabamento e conservação',
     ],
     button: 'Ver linha automotiva',
     linkKey: 'automotive' as const,
